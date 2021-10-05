@@ -20,11 +20,21 @@ function App() {
 	);
 	return (
     <div className="App">
-      <h1>Youtube Embed</h1>
+      <h1>My Projects</h1>
+			<h3>Stamina</h3>		
       <YoutubeEmbed embedId="tPNadVOFsbQ" />
     </div>
-		</React.Fragment>
   );
+  
+	return (
+    <div className="App">
+	  <h3>WiX Website</h3>
+      <YoutubeEmbed embedId="QP9bhcNyaqo" />
+    </div>
+		</React.Fragment>
+  ); 
+
+
 }
 
 
