@@ -31,8 +31,15 @@ function App() {
 	  <h3>WiX Website</h3>
       <YoutubeEmbed embedId="QP9bhcNyaqo" />
     </div>
-		</React.Fragment>
   ); 
+
+ return (
+    <div className="App">
+		<h3>Wordpress Website/Heavy CSS</h3>
+      <YoutubeEmbed embedId="vQosG2nDE5c" />
+    </div>
+		</React.Fragment>
+  );
 
 
 }
