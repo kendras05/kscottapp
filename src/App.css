@@ -7,7 +7,8 @@ h1, p {
 }
 
 h3 {
-  text-align: left;
+  text-align: center;
+	color: green;
 }
 
 .App-logo {
@@ -38,6 +39,11 @@ h3 {
 
 body {
   background-image: url("green.png");
+	background-size: 1000px;
+	background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 100px;
+  background-attachment: fixed;
 }
 
 
@@ -60,6 +66,7 @@ body {
 
 .video-responsive iframe {
   left: 0;
+	right: 75%;
   top: 0;
   height: 50%%;
   width: 50%;
