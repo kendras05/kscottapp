@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# My Portfolio Website.
+
+I wanted to make a website that showcase some projects I've done for clients. I chose to create it in React because most clients just want me to create or edit Wordpress or Wix, but I have a Fullstack Development Website Certification from UNLV so I wanted to showcase a little of those skills. I am looking for my first jr. dev job and to build clientele. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
