@@ -1,6 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import React from "react";
-import me from '../images/me.png';
+import YoutubeEmbed from "./YoutubeEmbed";
+import "../App.css";
+
 
 function HomePage() {
 	return (
@@ -9,10 +11,24 @@ function HomePage() {
 					<h1>Kendra Scott</h1>
 					<p>Jr. Software Developer. Looking for first fulltime opportunity! Thank you for being here.</p>
 		</div>
-    <img src="https://www.dropbox.com/home/Resumes?preview=green.pn" class="img-fluid" alt="..." />
-		</React.Fragment>
+   
+    <div className="App">
+      <h1>My Projects</h1>
+			<h3>Stamina</h3>		
+      <YoutubeEmbed embedId="tPNadVOFsbQ" />
+    </div>
+  
+    <div className="App">
+	  <h3>WiX Website</h3>
+      <YoutubeEmbed embedId="QP9bhcNyaqo" />
+    </div>
 
-	);				
+    <div className="App">
+		<h3>Wordpress Website/Heavy CSS</h3>
+      <YoutubeEmbed embedId="vQosG2nDE5c" />
+    </div>
+		</React.Fragment>
+	);
 }
 
 

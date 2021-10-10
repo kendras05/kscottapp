@@ -11,38 +11,16 @@ function App() {
 		if (route === "/about") return <AboutPage />;
 		return <HomePage />;
 	}	
-	return (
+		return (
 		<React.Fragment>
 	  <div className="container-fluid">
 			<Header />
 			{getPage()}
 		</div>
-	);
-	return (
-    <div className="App">
-      <h1>My Projects</h1>
-			<h3>Stamina</h3>		
-      <YoutubeEmbed embedId="tPNadVOFsbQ" />
-    </div>
-  );
-  
-	return (
-    <div className="App">
-	  <h3>WiX Website</h3>
-      <YoutubeEmbed embedId="QP9bhcNyaqo" />
-    </div>
-  ); 
-
- return (
-    <div className="App">
-		<h3>Wordpress Website/Heavy CSS</h3>
-      <YoutubeEmbed embedId="vQosG2nDE5c" />
-    </div>
-		</React.Fragment>
-  );
-
-
+    </React.Fragment>
+		);
 }
 
 
 export default App;
+

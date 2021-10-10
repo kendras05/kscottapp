@@ -7,8 +7,9 @@ h1, p {
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
 	color: green;
+	padding-left: 40px;
 }
 
 .App-logo {
