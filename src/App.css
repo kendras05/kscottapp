@@ -46,8 +46,8 @@ h5 {
 }
 
 body {
-  background-image: url("green.png");
-	background-size: 1000px;
+  background-image: url("green.png"), url("bright.jpg");
+	background-size: 1000px, 2000px;
 	background-repeat: no-repeat;
   background-position: right 10px bottom;
   margin-right: 100px;

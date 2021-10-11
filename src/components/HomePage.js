@@ -31,7 +31,7 @@ function HomePage() {
       <YoutubeEmbed embedId="vQosG2nDE5c" />
     </div>
 
-    <div className="App">
+    <div className="title">
 		<h1>"Other Sites I've Briefly Worked On"</h1>
 		</div>
     
@@ -40,7 +40,14 @@ function HomePage() {
 		<h5>Used CSS to change some features on the first page. </h5>
       <YoutubeEmbed embedId="rKSu5PjjKSA" />
     </div>
-					
+
+
+	  <div className="App">
+	  <h3>CSS Editing for Responsiveness</h3>
+		<h5>Made the banners responsive to look consistent across multiple types of screens. </h5>
+      <YoutubeEmbed embedId="AdTku3weaBw" />
+    </div>
+
 		</React.Fragment>
 
 	);
